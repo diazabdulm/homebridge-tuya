@@ -1,17 +1,15 @@
 {
   "name": "homebridge-tuya",
-
   "version": "3.0.0-beta.1",
-
   "description": "🏠 Offical Homebridge plugin for TuyAPI ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "tuya-lan": "./bin/cli.js",
-    "tuya-lan-find": "./bin/cli-find.js",
-    "tuya-lan-decode": "./bin/cli-decode.js"
+    "tuya-lan": "bin/cli.js",
+    "tuya-lan-find": "bin/cli-find.js",
+    "tuya-lan-decode": "bin/cli-decode.js"
   },
   "repository": {
     "type": "git",
